@@ -24,7 +24,8 @@ steps{
    withGradle(){
 
    sh'./gradlew -v'
-  
+ sh' ./gradlew clean'
+sh './gradlew assemble'
  }
   }
  
