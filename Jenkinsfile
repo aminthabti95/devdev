@@ -23,7 +23,7 @@ steps{
  echo 'excecuting gradle'
    withGradle(){
 
-   sh'gradle build --scan'
+   sh'./gradle build --scan'
 
  }
   }
